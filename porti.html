@@ -1,0 +1,387 @@
+.navbar{
+    background-color: rgb(58, 58, 58);
+    height: 75px;
+
+}
+
+
+
+.portfolio{
+    color: aqua;
+    font-family: fangsong;
+    font-size: 27px;
+    font-weight: 600;
+}
+.website{
+    color: white;
+    font-family: fangsong;
+    font-size: 27px;
+    font-weight: 600;
+}
+.nav-item{
+    color: white;
+    font-family: "system-ui";
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.bg-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+
+.home-container,
+.about-container,
+.skills-container1,
+.education-container,
+.contact-container{
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-details{
+    display: flex;
+    flex-direction: row;
+}
+
+.intro{
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+}
+.download-btn, .submit-button{
+    background-color: aqua;
+    color: rgb(247, 244, 246);
+    font-family: fangsong;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.heading{
+    color: aqua;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-description{
+    color: rgb(212, 210, 210);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.details-container{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+}
+
+.title{
+    color: rgb(9, 248, 236);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title-text{
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skills-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+}
+.skill-item{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.skill-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.button{
+    height: 13px;
+    width: 350px;
+    border: none;
+    border-radius: 2px;
+}
+
+.education-details{
+    max-height: 35vh;
+    width: 48vw;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.institute, .year{
+    color: black;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+}
+.education{
+    color: black;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+.each-education{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.education-year{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hr{
+    border: 1px solid black;
+}
+.name-inputs{
+    display: flex;
+    flex-direction: row;
+}
+.input-text, .text-area, .query-text{
+    height: 35px;
+    width: 250px;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.query-text{
+    width: 520px;
+}
+.text-area{
+    height: 120px;
+    width: 520px;
+   padding-bottom: 60px;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.icon-container, .git-container, .insta-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    margin: 40px;
+}
+.icon {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .linkedin-icon{
+    color: rgb(45, 45, 243);
+  }
+
+.git-icon{
+    color: black;
+    font-size: 100px;
+}
+
+.insta-container{
+    border-radius: 20px;
+}
+
+
+.insta-icon{
+    color: rgb(245, 20, 132);
+}
+ 141 changes: 141 additions & 0 deletions141  
+porti.html
+@@ -0,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+        <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark">
+            <a class="portfolio" href="#">Portfolio<span class="website">Website</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                <a class="nav-link nav-item" href="#home">Home</a>
+                <a class="nav-link nav-item" href="#about">About</a>
+                <a class="nav-link nav-item" href="#skills">Skills</a>
+                <a class="nav-link nav-item" href="#education">Education</a>
+                <a class="nav-link nav-item" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <div class="bg-container">
+            <div class="home-container" id="home">
+                <h1 class="intro">Hi, I'm Abhishek Puru from Hyderabad, Telangana</h1>
+                <button class="download-btn">Download CV</button>
+            </div>
+            <div class="about-container" id="about">
+                <h1 class="heading">ABOUT ME</h1>
+                <h3 class="about-heading">Aspiring full Stack Developer</h3>
+                <p class="about-description">
+                    At NxtWave’s CCBP 4.0 Intensive, I’m currently learning fullstack development
+                    with a specialization in 4.0 technologies. In love with the coding challenges and
+                    hands-on projects. With Industry’s first ever IRC 4.0, getting ready to take on new 
+                    challenges in the tech world.
+                </p>
+                <div class="details-container">
+                    <div>
+                        <p class="title">Name:<span class="title-text"> Abhishek Puru</span></p>
+                        <p class="title">Degree:<span class="title-text"> Bachelors Degree</span></p>
+                        <p class="title">Phone:<span class="title-text"> +91 8919799638</span></p>
+                        <p class="title">Address:<span class="title-text"> Hyderabad, Telangana</span></p>
+                    </div>
+                    <div>
+                        <p class="title">Date-Of-Birth:<span class="title-text"> 03/09/2001</span></p>
+                        <p class="title">Experience:<span class="title-text"> Fresher</span></p>
+                        <p class="title">Email:<span class="title-text"> abhishekpuru66@gmail.com</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-container1" id="skills">
+                <h1 class="heading">MY SKILLS</h1>
+                <div class="skills-container2">
+                    <div class="skill-item">
+                        <h1 class="skill-heading">HTML</h1>
+                        <button class="button"></button>
+                    </div>
+                    <div class="skill-item">
+                        <h1 class="skill-heading">CSS</h1>
+                        <button class="button"></button>
+                    </div>
+                    <div class="skill-item">
+                        <h1 class="skill-heading">JavaScript</h1>
+                        <button class="button"></button>
+                    </div>
+                    <div class="skill-item">
+                        <h1 class="skill-heading">Python</h1>
+                        <button class="button"></button>
+                    </div>
+                    <div class="skill-item">
+                        <h1 class="skill-heading">ReactJS</h1>
+                        <button class="button"></button>
+                    </div>
+                    <div class="skill-item">
+                        <h1 class="skill-heading">SQL</h1>
+                        <button class="button"></button>
+                    </div>
+                    <div class="skill-item">
+                        <h1 class="skill-heading">ExpressJS</h1>
+                        <button class="button"></button>
+                    </div>
+                    <div class="skill-item">
+                        <h1 class="skill-heading">NodeJS</h1>
+                        <button class="button"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="education-container" id="education">
+                <h1 class="heading">EDUCATION</h1>
+                <div class="education-details">
+                    <div class="each-education">
+                        <div class="education-year">
+                            <h1 class="institute">st martins engineering college, Telangana</h1>
+                            <h1 class="year">2019-2023</h1>
+                        </div>
+                        <h1 class="education">Btech (Bachelor of Technology) (7.6%)</h1>    
+                    </div>
+                    <hr class="hr" />
+                    <div class="each-education"> 
+                        <div class="education-year">
+                            <h1 class="institute">Sri chaitanya junior college
+                            </h1>
+                            <h1 class="year">2017-2019</h1>
+                        </div>
+                        <h1 class="education">Intermediate_MPC (8.77%)</h1>    
+                    </div>
+                    <hr class="hr" />
+                    <div class="each-education">
+                        <div class="education-year">
+                            <h1 class="institute">bhashyam high school</h1>
+                            <h1 class="year">2016-2017</h1>
+                        </div>
+                        <h1 class="education">Secondary School Of Certificate (9.3%)</h1>    
+                    </div>
+                 </div>
+            </div>
+            <div class="contact-container" id="contact">
+                <h1 class="heading">CONTACT ME</h1>
+                <div class="name-inputs">
+                    <input type="text" placeholder="FirstName" class="input-text" />
+                    <input type="text" placeholder="LastName" class="input-text" />
+                </div>
+                <input type="text" placeholder="Write your Query" class="query-text" />
+                <input type="text" placeholder="Message" class="text-area" />
+                <button class="submit-button">Send Message</button>
+            </div>
+            <div class="footer-section">
+                <div class="icon-container"><i class="fa fa-linkedin-square linkedin-icon icon icon"></i></div>
+                <div class="git-container"><i class="fa fa-github-square git-icon icon"></i></div>
+                <div class="insta-container"><i class="fa fa-instagram icon insta-icon"></i></div>
+            </div>
+        </div>
+    </body>
+</html>
